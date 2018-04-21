@@ -68,7 +68,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Profesionales.cs" />
+    <Compile Include="Model\Patient.cs" />
+    <Compile Include="Model\Professional.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

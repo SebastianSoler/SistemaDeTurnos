@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaDeTurnos", "SistemaDeTurnos\SistemaDeTurnos.csproj", "{AC3BE13C-A7EB-484D-8C1E-4DB962F1D324}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaDeTurnos.Application", "SistemaDeTurnos\SistemaDeTurnos.Application.csproj", "{AC3BE13C-A7EB-484D-8C1E-4DB962F1D324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaDeTurnosDataAccess", "SistemaDeTurnosDataAccess\SistemaDeTurnosDataAccess.csproj", "{62F9DA87-4D1B-4700-B2D1-0B887104C126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaDeTurnos.Domain", "SistemaDeTurnos.Domain\SistemaDeTurnos.Domain.csproj", "{EC860434-76F8-4C3C-947A-F55CD61CDA57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaDeTurnos.CrossCutting", "SistemaDeTurnos.CrossCutting\SistemaDeTurnos.CrossCutting.csproj", "{EC4EF7B4-6D24-4786-A7D1-3BAD28A07E45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{AC3BE13C-A7EB-484D-8C1E-4DB962F1D324}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC3BE13C-A7EB-484D-8C1E-4DB962F1D324}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC3BE13C-A7EB-484D-8C1E-4DB962F1D324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62F9DA87-4D1B-4700-B2D1-0B887104C126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F9DA87-4D1B-4700-B2D1-0B887104C126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F9DA87-4D1B-4700-B2D1-0B887104C126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F9DA87-4D1B-4700-B2D1-0B887104C126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC860434-76F8-4C3C-947A-F55CD61CDA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC860434-76F8-4C3C-947A-F55CD61CDA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC860434-76F8-4C3C-947A-F55CD61CDA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC860434-76F8-4C3C-947A-F55CD61CDA57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4EF7B4-6D24-4786-A7D1-3BAD28A07E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4EF7B4-6D24-4786-A7D1-3BAD28A07E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4EF7B4-6D24-4786-A7D1-3BAD28A07E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4EF7B4-6D24-4786-A7D1-3BAD28A07E45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
